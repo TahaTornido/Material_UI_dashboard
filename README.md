@@ -14,13 +14,17 @@ Welcome to the Clinic Patient Dashboard, an advanced and efficient application f
 
 ### Prerequisites
 
-- Make sure you have Node.js installed on your system (<https://nodejs.org/>).
-- Make sure you have MySQL installed on your system (<https://dev.mysql.com/downloads/mysql/>).
+- Make sure you have Node.js installed on your system [node](https://nodejs.org/).
+- Make sure you have MySQL installed on your system [SQL](https://dev.mysql.com/downloads/mysql/).
 
 ### Installation Steps
 
 1. Install npm packages:
+
+   ```sh
    npm install
+   ```
+
 2. Create a MySQL database and set up the schema and seed data
    code to create database and values to database is in patients.sql file
 3. Configure the database connection:
@@ -39,10 +43,17 @@ Welcome to the Clinic Patient Dashboard, an advanced and efficient application f
    - Make sure the MySQL service is running and the credentials match the user and password of your MySQL database.
 
 4. Start the server:
-   `cd server`
+
+   ```sh
+   cd server
    node index.js
+   ```
+
 5. Start the client
-   `npm run dev`
+
+   ```sh
+   npm run dev
+   ```
 
 ### View Case
 
