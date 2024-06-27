@@ -39,10 +39,10 @@ Welcome to the Clinic Patient Dashboard, an advanced and efficient application f
    - Make sure the MySQL service is running and the credentials match the user and password of your MySQL database.
 
 4. Start the server:
-   cd server
+   `cd server`
    node index.js
 5. Start the client
-   npm run dev
+   `npm run dev`
 
 ### View Case
 
